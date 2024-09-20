@@ -3,7 +3,7 @@ public class Demo1 {
         System.out.println("git practice begins here");
         String str = "java is a programming language";
         for (String word : str.split(" ")) {
-            System.out.println(word + " - lenth of this word is: " + word.length());
+            System.out.println(word + " - length of this word is: " + word.length());
         }
     }
 }
