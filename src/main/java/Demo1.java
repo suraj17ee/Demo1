@@ -5,5 +5,6 @@ public class Demo1 {
         for (String word : str.split(" ")) {
             System.out.println(word + " - length of this word is: " + word.length());
         }
+        System.out.println("thanks buddy");
     }
 }
