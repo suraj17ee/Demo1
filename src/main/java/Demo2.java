@@ -13,28 +13,12 @@ class Car {
         this.carEngineType = carEngineType;
     }
 
-    public String getBrandName() {
-        return brandName;
-    }
-
-    public void setBrandName(String brandName) {
-        this.brandName = brandName;
-    }
-
     public String getCarModel() {
         return carModel;
     }
 
-    public void setCarModel(String carModel) {
-        this.carModel = carModel;
-    }
-
     public String getCarEngineType() {
         return carEngineType;
-    }
-
-    public void setCarEngineType(String carEngineType) {
-        this.carEngineType = carEngineType;
     }
 
     @Override
