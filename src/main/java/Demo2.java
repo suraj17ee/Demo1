@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -11,6 +10,10 @@ class Car {
         this.brandName = brandName;
         this.carModel = carModel;
         this.carEngineType = carEngineType;
+    }
+
+    public String getBrandName() {
+        return brandName;
     }
 
     public String getCarModel() {
