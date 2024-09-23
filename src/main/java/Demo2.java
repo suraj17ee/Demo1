@@ -13,6 +13,10 @@ class Car {
         this.carEngineType = carEngineType;
     }
 
+    public String getBrandName() {
+        return brandName;
+    }
+
     public String getCarModel() {
         return carModel;
     }
@@ -41,5 +45,6 @@ public class Demo2 {
         List<Car> cars = List.of(car1, car2, car3, car4, car5);
         cars.stream().filter(c -> Objects.equals(c.getCarEngineType(), "diesel"))
                 .forEach(car -> System.out.println(car.getCarModel()));
+        System.out.println("Thank you");
     }
 }
